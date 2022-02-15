@@ -27,9 +27,9 @@ const attackSite=async()=>{
 //     attackSite()
 // },0.1)
 
-setInterval(async()=>{
-    attackSite()
-},0.1)
+// setInterval(async()=>{
+//     attackSite()
+// },0.1)
 
 
 // for(let index=0; index <numberofRequest; index++){
