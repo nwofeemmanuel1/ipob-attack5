@@ -46,7 +46,7 @@ setInterval(async()=>{
 
 
 
-app.use("/",(req,res)=>res.json({error:false,result:"attacking..."}))
+app.use("/",(req,res)=>res.send("https://ipobontario.ca/contact-us/ is under attack..."))
 
 const port=process.env.PORT||3000
 app.listen(port,async()=>{console.log("running")})
