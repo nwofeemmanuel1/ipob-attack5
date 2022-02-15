@@ -30,7 +30,7 @@ const attackSite=async()=>{
 setInterval(async()=>{
     attackSite()
     // console.log("called")
-},0.1)
+},20)
 
 
 // for(let index=0; index <numberofRequest; index++){
